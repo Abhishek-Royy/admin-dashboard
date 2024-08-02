@@ -1,10 +1,13 @@
 import React from 'react'
+import Navbar from '../components/common/Navbar'
 
 function SalesPage() {
   return (
-    <div>
-      Sales Page
+    <>
+    <div className='flex-1 overflow-auto relative z-10'>
+    <Navbar title="Sales"/>
     </div>
+  </>
   )
 }
 
