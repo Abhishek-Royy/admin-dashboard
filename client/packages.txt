@@ -1,0 +1,3 @@
+-----> react-router-dom
+-----> lucide-react
+-----> recharts
