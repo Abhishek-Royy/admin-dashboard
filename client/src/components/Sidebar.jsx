@@ -15,7 +15,7 @@ import {
 import { AnimatePresence, motion } from "framer-motion";
 
 function Sidebar() {
-  const [isSidebaropen, setisSidebaropen] = useState(true);
+  const [isSidebaropen, setisSidebaropen] = useState(false);
 
   const Sidebar_Items = [
     {
@@ -40,7 +40,7 @@ function Sidebar() {
       name: "Users",
       icon: Users,
       color: "#ec4899",
-      path: "/sales",
+      path: "/users",
     },
     {
       name: "Orders",

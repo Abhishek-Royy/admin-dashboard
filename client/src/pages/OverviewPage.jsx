@@ -5,6 +5,9 @@ import { motion } from "framer-motion";
 import StatusCard from "../components/common/StatusCard";
 import { Zap, User, ShoppingBag, BarChart } from "lucide-react";
 
+import Salesoverviewchart from "../charts/SalesOverviewCharts";
+import CategoryDistributionChart from "../charts/CategoryDistributionChart";
+
 function OverviewPage() {
   return (
     <>
@@ -44,6 +47,12 @@ function OverviewPage() {
               color="#8b5cf6"
             />
           </motion.div>
+
+          {/* Charts */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <Salesoverviewchart />
+            <CategoryDistributionChart/>
+          </div>
         </main>
       </div>
     </>

@@ -10,6 +10,7 @@ import SettingsPage from "./pages/SettingsPage";
 import UsersPage from "./pages/UsersPage";
 
 import Sidebar from "./components/Sidebar";
+import Login from "./components/common/Login";
 
 function App() {
   return (
@@ -29,6 +30,10 @@ function App() {
         <Route path="/analytics" element={<AnalyticsPage />} />
         <Route path="/orders" element={<OrdersPage />} />
         <Route path="/settings" element={<SettingsPage />} />
+
+
+        <Route path="/login" element={<Login />} />
+
       </Routes>
     </div>
   );
