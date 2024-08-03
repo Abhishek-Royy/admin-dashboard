@@ -7,6 +7,7 @@ import { Zap, User, ShoppingBag, BarChart } from "lucide-react";
 
 import Salesoverviewchart from "../charts/SalesOverviewCharts";
 import CategoryDistributionChart from "../charts/CategoryDistributionChart";
+import SalesChannelChart from "../charts/SalesChannelChart";
 
 function OverviewPage() {
   return (
@@ -52,6 +53,7 @@ function OverviewPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <Salesoverviewchart />
             <CategoryDistributionChart/>
+            <SalesChannelChart/>
           </div>
         </main>
       </div>
